@@ -1,7 +1,7 @@
 import React from "react";
 import type { ProductCardProps } from "../types/product.type";
 import { formatPrice } from "../../../utils/constants";
-import { Link } from "react-router-dom";
+import { Link} from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import { Button } from "../../../components/common/Button";
 import Loading from "../../../components/common/Loading";

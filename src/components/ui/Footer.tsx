@@ -1,22 +1,14 @@
 import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom";
 
-// Cấu trúc mảng quản lý các cột links của Footer
 const FOOTER_SECTIONS = [
-  {
-    titleKey: "categories",
-    links: [
-      { key: "clothing", path: "/categories/clothing" },
-      { key: "shoes", path: "/categories/shoes" },
-      { key: "accessories", path: "/categories/accessories" },
-    ],
-  },
   {
     titleKey: "support",
     links: [
       { key: "faq", path: "/faq" },
       { key: "shipping", path: "/shipping" },
       { key: "returns", path: "/returns" },
+      { key: "privacy", path: "/privacy-policy" },
     ],
   },
 ];

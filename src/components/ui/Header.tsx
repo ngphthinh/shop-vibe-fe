@@ -115,7 +115,8 @@ const Header = () => {
   return (
     <>
       {loading && <Loading />}
-      <header className="bg-white shadow-sm md:shadow p-4 relative select-none z-50">
+      <header className="fixed inset-x-0 top-0 z-50 bg-white p-4 shadow">
+        {" "}
         <div className="max-w-7xl mx-auto flex justify-between items-center">
           {/* Logo */}
           <Link to="/" className="text-xl font-bold text-gray-800">
@@ -221,7 +222,9 @@ const Header = () => {
                   </Link>
                   <Link to={NAV_KEYS_AUTH.REGISTER}>
                     <Button size="sm" className="w-auto px-4 py-1.5">
-                      {t(`${[getTitleOfButtonByValue(NAV_KEYS_AUTH.REGISTER)]}`)}
+                      {t(
+                        `${[getTitleOfButtonByValue(NAV_KEYS_AUTH.REGISTER)]}`,
+                      )}
                     </Button>
                   </Link>
                 </div>
@@ -244,7 +247,6 @@ const Header = () => {
             </div>
           </nav>
         </div>
-
         {/* MOBILE NAV */}
         <div
           className={`md:hidden absolute top-full left-0 right-0 bg-white border-t border-gray-100 shadow-lg transition-all duration-300 ${
@@ -267,7 +269,7 @@ const Header = () => {
                 <li key={item.key}>
                   <Link
                     to={item.path}
-                    onClick={closeMenus} 
+                    onClick={closeMenus}
                     className={getLinkClass(item, true)}>
                     {t(item.key)}
                   </Link>
@@ -300,7 +302,7 @@ const Header = () => {
                         <li key={item.key}>
                           <Link
                             to={item.path}
-                            onClick={closeMenus} 
+                            onClick={closeMenus}
                             className={`block py-0.5 text-sm transition-colors ${
                               location.pathname === item.path
                                 ? "text-black font-semibold"
