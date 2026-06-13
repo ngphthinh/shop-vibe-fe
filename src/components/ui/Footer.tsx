@@ -62,14 +62,15 @@ const Footer = () => {
 
           {/* Một vài icon mạng xã hội tĩnh */}
           <div className="flex space-x-4 text-gray-400">
-            <a href="#" className="hover:text-white transition-colors">
+            <a
+              href="https://www.facebook.com/ngphthinh710"
+              className="hover:text-white transition-colors">
               Facebook
             </a>
-            <a href="#" className="hover:text-white transition-colors">
-              Instagram
-            </a>
-            <a href="#" className="hover:text-white transition-colors">
-              TikTok
+            <a
+              href="https://github.com/ngphthinh"
+              className="hover:text-white transition-colors">
+              Github
             </a>
           </div>
         </div>

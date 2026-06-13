@@ -10,8 +10,8 @@ import { toast } from "react-toastify";
 
 export const LoginForm: React.FC = () => {
   const { t } = useTranslation("", { keyPrefix: "auth.login" });
-  const [email, setEmail] = useState("admin@shopvibe.vn");
-  const [password, setPassword] = useState("Test@12345");
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
   const [loading, setLoading] = useState(false);
 
   const dispatch = useDispatch();
