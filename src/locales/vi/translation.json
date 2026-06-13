@@ -1,0 +1,768 @@
+{
+  "dateRangeCalendar": {
+    "start": "Ngày bắt đầu",
+    "end": "Ngày kết thúc",
+    "selectEnd": "Chọn ngày kết thúc…",
+    "days": "ngày",
+    "weekDays": [
+      "T2",
+      "T3",
+      "T4",
+      "T5",
+      "T6",
+      "T7",
+      "CN"
+    ],
+    "months": [
+      "Tháng 1",
+      "Tháng 2",
+      "Tháng 3",
+      "Tháng 4",
+      "Tháng 5",
+      "Tháng 6",
+      "Tháng 7",
+      "Tháng 8",
+      "Tháng 9",
+      "Tháng 10",
+      "Tháng 11",
+      "Tháng 12"
+    ]
+  },
+  "common": {
+    "clear": "Xóa",
+    "appName": "ShopVibe",
+    "loading": "Đang tải...",
+    "save": "Lưu",
+    "cancel": "Hủy",
+    "delete": "Xóa",
+    "edit": "Sửa",
+    "create": "Tạo mới",
+    "update": "Cập nhật",
+    "confirm": "Xác nhận",
+    "close": "Đóng",
+    "back": "Quay lại",
+    "next": "Tiếp theo",
+    "submit": "Gửi",
+    "search": "Tìm kiếm",
+    "filter": "Lọc",
+    "reset": "Đặt lại",
+    "viewAll": "Xem tất cả",
+    "viewDetail": "Xem chi tiết",
+    "noData": "Không có dữ liệu",
+    "noResults": "Không tìm thấy kết quả",
+    "error": "Đã xảy ra lỗi",
+    "tryAgain": "Thử lại",
+    "required": "Trường này là bắt buộc",
+    "yes": "Có",
+    "no": "Không",
+    "actions": "Thao tác",
+    "status": "Trạng thái",
+    "createdAt": "Ngày tạo",
+    "updatedAt": "Ngày cập nhật",
+    "total": "Tổng cộng",
+    "quantity": "Số lượng",
+    "price": "Giá",
+    "name": "Tên",
+    "description": "Mô tả",
+    "image": "Hình ảnh",
+    "images": "Hình ảnh",
+    "notes": "Ghi chú",
+    "page": "Trang",
+    "of": "trong",
+    "showing": "Hiển thị",
+    "results": "kết quả",
+    "rowsPerPage": "Hàng mỗi trang",
+    "successSaved": "Lưu thành công",
+    "successDeleted": "Xóa thành công",
+    "successUpdated": "Cập nhật thành công",
+    "successCreated": "Tạo mới thành công",
+    "confirmDeleteTitle": "Xác nhận xóa",
+    "confirmDeleteMessage": "Bạn có chắc chắn muốn xóa mục này không? Hành động này không thể hoàn tác."
+  },
+  "nav": {
+    "home": "Trang chủ",
+    "products": "Sản phẩm",
+    "cart": "Giỏ hàng",
+    "orders": "Đơn hàng của tôi",
+    "profile": "Hồ sơ",
+    "login": "Đăng nhập",
+    "register": "Đăng ký",
+    "logout": "Đăng xuất",
+    "productManager": "Quản lý sản phẩm",
+    "admin": "Quản trị",
+    "search": "Tìm kiếm sản phẩm...",
+    "userManager": "Quản lý người dùng",
+    "orderManager": "Quản lý đơn hàng"
+  },
+  "auth": {
+    "login": {
+      "title": "Đăng nhập",
+      "subtitle": "Chào mừng trở lại! Vui lòng nhập thông tin của bạn.",
+      "email": "Địa chỉ email",
+      "emailPlaceholder": "Nhập địa chỉ email",
+      "password": "Mật khẩu",
+      "passwordPlaceholder": "Nhập mật khẩu",
+      "submit": "Đăng nhập",
+      "loading": "Đang đăng nhập...",
+      "noAccount": "Chưa có tài khoản?",
+      "registerLink": "Đăng ký ngay",
+      "forgotPassword": "Quên mật khẩu?",
+      "success": "Đăng nhập thành công",
+      "error": {
+        "invalidCredentials": "Email hoặc mật khẩu không đúng",
+        "accountLocked": "Tài khoản của bạn đã bị khóa. Vui lòng liên hệ hỗ trợ.",
+        "generic": "Đăng nhập thất bại. Vui lòng thử lại."
+      }
+    },
+    "register": {
+      "title": "Tạo tài khoản",
+      "subtitle": "Tham gia ShopVibe ngay hôm nay!",
+      "fullName": "Họ và tên",
+      "fullNamePlaceholder": "Nhập họ và tên",
+      "email": "Địa chỉ email",
+      "emailPlaceholder": "Nhập địa chỉ email",
+      "password": "Mật khẩu",
+      "passwordPlaceholder": "Tạo mật khẩu mới",
+      "confirmPassword": "Xác nhận mật khẩu",
+      "confirmPasswordPlaceholder": "Nhập lại mật khẩu",
+      "phone": "Số điện thoại",
+      "phonePlaceholder": "Nhập số điện thoại",
+      "submit": "Tạo tài khoản",
+      "loading": "Đang tạo tài khoản...",
+      "hasAccount": "Đã có tài khoản?",
+      "loginLink": "Đăng nhập",
+      "success": "Tạo tài khoản thành công! Vui lòng đăng nhập.",
+      "error": {
+        "emailExists": "Email này đã được đăng ký",
+        "passwordMismatch": "Mật khẩu xác nhận không khớp",
+        "generic": "Đăng ký thất bại. Vui lòng thử lại.",
+        "invalidEmail": "Địa chỉ email không hợp lệ",
+        "weakPassword": "Mật khẩu quá yếu. Vui lòng chọn mật khẩu mạnh hơn.",
+        "invalidPhone": "Số điện thoại không hợp lệ. Vui lòng nhập số điện thoại hợp lệ.",
+        "invalidFullName": "Họ và tên không hợp lệ. Vui lòng nhập họ và tên đầy đủ."
+      }
+    },
+    "changePassword": {
+      "title": "Đổi mật khẩu",
+      "oldPassword": "Mật khẩu hiện tại",
+      "oldPasswordPlaceholder": "Nhập mật khẩu hiện tại",
+      "newPassword": "Mật khẩu mới",
+      "newPasswordPlaceholder": "Nhập mật khẩu mới",
+      "submit": "Đổi mật khẩu",
+      "loading": "Đang cập nhật...",
+      "success": "Đổi mật khẩu thành công",
+      "error": {
+        "wrongOldPassword": "Mật khẩu hiện tại không đúng",
+        "samePassword": "Mật khẩu mới phải khác mật khẩu hiện tại",
+        "generic": "Đổi mật khẩu thất bại. Vui lòng thử lại."
+      }
+    },
+    "logout": {
+      "confirm": "Bạn có chắc chắn muốn đăng xuất không?"
+    }
+  },
+  "validation": {
+    "required": "{{field}} là bắt buộc",
+    "email": "Vui lòng nhập địa chỉ email hợp lệ",
+    "minLength": "{{field}} phải có ít nhất {{min}} ký tự",
+    "maxLength": "{{field}} không được vượt quá {{max}} ký tự",
+    "passwordStrength": "Mật khẩu phải chứa ít nhất 1 chữ hoa và 1 chữ số",
+    "passwordMatch": "Mật khẩu xác nhận không khớp",
+    "phone": "Vui lòng nhập số điện thoại hợp lệ (10-11 chữ số)",
+    "positiveNumber": "{{field}} phải lớn hơn 0",
+    "nonNegativeNumber": "{{field}} không được âm",
+    "integer": "{{field}} phải là số nguyên",
+    "minRating": "Vui lòng chọn ít nhất 1 sao",
+    "maxRating": "Đánh giá không được vượt quá 5 sao",
+    "selectCategory": "Vui lòng chọn danh mục"
+  },
+  "products": {
+    "stock": "Tồn kho",
+    "title": "Sản phẩm",
+    "searchResult": "Tìm thấy {{count}} sản phẩm ",
+    "productList": "Danh sách sản phẩm",
+    "searchTitle": "Kết quả tìm kiếm",
+    "searchPlaceholder": "Tìm kiếm theo tên hoặc mô tả...",
+    "searchHint": "Nhập ít nhất 2 ký tự để tìm kiếm",
+    "noProducts": "Không tìm thấy sản phẩm",
+    "noSearchResults": "Không có sản phẩm nào khớp với \"{{keyword}}\"",
+    "loadMore": "Xem thêm",
+    "sort": {
+      "label": "Sắp xếp theo",
+      "newest": "Mới nhất",
+      "oldest": "Cũ nhất",
+      "priceAsc": "Giá: Thấp đến Cao",
+      "priceDesc": "Giá: Cao đến Thấp"
+    },
+    "filter": {
+      "category": "Danh mục",
+      "allCategories": "Tất cả danh mục",
+      "priceRange": "Khoảng giá",
+      "minPrice": "Giá thấp nhất",
+      "maxPrice": "Giá cao nhất"
+    },
+    "detail": {
+      "addToCart": "Thêm vào giỏ",
+      "addingToCart": "Đang thêm...",
+      "outOfStock": "Hết hàng",
+      "inStock": "Còn hàng",
+      "stockLeft": "Còn {{count}} sản phẩm",
+      "quantity": "Số lượng",
+      "category": "Danh mục",
+      "sku": "Mã sản phẩm",
+      "share": "Chia sẻ",
+      "description": "Mô tả sản phẩm",
+      "reviews": "Đánh giá",
+      "noReviews": "Chưa có đánh giá. Hãy là người đầu tiên nhận xét!",
+      "addedToCart": "Đã thêm vào giỏ hàng!",
+      "addToCartFail": "Thêm vào giỏ hàng thất bại. Vui lòng thử lại."
+    },
+    "card": {
+      "viewDetail": "Xem chi tiết",
+      "addToCart": "Thêm vào giỏ"
+    },
+    "admin": {
+      "rotateScreen": {
+        "title": "Xoay ngang màn hình",
+        "message": "để xem danh sách sản phẩm"
+      },
+      "title": "Quản lý sản phẩm",
+      "addNew": "Thêm sản phẩm mới",
+      "editProductLabel": "Chỉnh Sửa sản phẩm",
+      "editProduct": "Sửa",
+      "deleteProduct": "Xóa",
+      "createProduct": "Tạo sản phẩm",
+      "totalProduct": "Tổng số sản phẩm: {{count}}",
+      "categoriesAll": "Tất cả danh mục",
+      "deleteFilter": "Xóa bộ lọc",
+      "searchPlaceholder": "Tìm kiếm theo tên hoặc mô tả...",
+      "noProducts": "Không tìm thấy sản phẩm",
+      "sort": {
+        "newest": "Mới nhất",
+        "oldest": "Cũ nhất",
+        "priceAsc": "Giá: Thấp đến Cao",
+        "priceDesc": "Giá: Cao đến Thấp"
+      },
+      "table": {
+        "id": "ID",
+        "name": "Tên sản phẩm",
+        "category": "Danh mục",
+        "price": "Giá",
+        "stock": "Tồn kho",
+        "rating": "Đánh giá",
+        "images": "Hình ảnh",
+        "actions": "Thao tác"
+      },
+      "form": {
+        "name": "Tên sản phẩm",
+        "namePlaceholder": "Nhập tên sản phẩm",
+        "description": "Mô tả",
+        "descriptionPlaceholder": "Nhập mô tả sản phẩm",
+        "price": "Giá (VNĐ)",
+        "pricePlaceholder": "Nhập giá sản phẩm",
+        "stock": "Số lượng tồn kho",
+        "stockPlaceholder": "Nhập số lượng",
+        "category": "Danh mục",
+        "categoryPlaceholder": "Chọn danh mục",
+        "images": "Hình ảnh sản phẩm",
+        "imagesHint": " Hình đầu tiên là ảnh chính. Hỗ trợ nhiều file.",
+        "dragImages": "Kéo thả ảnh vào đây hoặc nhấp để chọn file",
+        "addImage": "Thêm ảnh",
+        "cancel": "Hủy",
+        "saveProduct": "Lưu sản phẩm",
+        "saving": "Đang lưu...",
+        "errors": {
+          "nameRequired": "Tên sản phẩm là bắt buộc",
+          "priceRequired": "Giá sản phẩm là bắt buộc",
+          "priceInvalid": "Giá sản phẩm không hợp lệ",
+          "stockInvalid": "Số lượng tồn kho không hợp lệ",
+          "categoryRequired": "Danh mục là bắt buộc",
+          "imagesLimit": "Bạn chỉ có thể tải lên tối đa 5 ảnh",
+          "imageRequired": "Vui lòng chọn ít nhất 1 hình ảnh"
+        }
+      },
+      "deleteConfirm": "Bạn có chắc chắn muốn xóa sản phẩm \"{{name}}\" không?",
+      "deleteImageConfirm": "Bạn có chắc chắn muốn xóa hình ảnh này không?",
+      "deleteForm": {
+        "title": "Xác nhận xóa",
+        "message": "Hành động này không thể hoàn tác. Vui lòng xác nhận để tiếp tục."
+      },
+      "message": {
+        "created": "Sản phẩm đã được tạo thành công",
+        "updated": "Sản phẩm đã được cập nhật thành công",
+        "deleted": "Sản phẩm đã được xóa thành công"
+      },
+      "review": {
+        "title": "Đánh giá của khách hàng",
+        "totalReviews": "{{count}} đánh giá",
+        "noReviews": "Chưa có đánh giá"
+      }
+    }
+  },
+  "categories": {
+    "title": "Danh mục",
+    "all": "Tất cả danh mục",
+    "noCategories": "Không tìm thấy danh mục",
+    "admin": {
+      "title": "Quản lý danh mục",
+      "addNew": "Thêm danh mục mới",
+      "editCategory": "Chỉnh sửa danh mục",
+      "form": {
+        "name": "Tên danh mục",
+        "namePlaceholder": "Nhập tên danh mục",
+        "parentCategory": "Danh mục cha",
+        "parentCategoryPlaceholder": "Không có (Danh mục gốc)",
+        "save": "Lưu danh mục"
+      },
+      "table": {
+        "id": "ID",
+        "name": "Tên",
+        "parent": "Danh mục cha",
+        "children": "Danh mục con",
+        "actions": "Thao tác"
+      },
+      "deleteConfirm": "Bạn có chắc chắn muốn xóa danh mục \"{{name}}\" không? Điều này cũng ảnh hưởng đến các danh mục con."
+    }
+  },
+  "cart": {
+    "title": "Giỏ hàng",
+    "empty": "Giỏ hàng của bạn đang trống",
+    "emptySubtitle": "Bạn chưa thêm sản phẩm nào vào giỏ hàng.",
+    "continueShopping": "Tiếp tục mua sắm",
+    "item": "sản phẩm",
+    "items": "sản phẩm",
+    "product": "Sản phẩm",
+    "unitPrice": "Đơn giá",
+    "quantity": "Số lượng",
+    "subtotal": "Thành tiền",
+    "remove": "Xóa",
+    "removeConfirm": "Xóa sản phẩm này khỏi giỏ hàng?",
+    "clearCart": "Xóa toàn bộ giỏ",
+    "clearCartConfirm": "Bạn có chắc chắn muốn xóa toàn bộ giỏ hàng không?",
+    "summary": {
+      "title": "Tóm tắt đơn hàng",
+      "quantity": "Tổng số lượng",
+      "subtotal": "Tạm tính",
+      "shipping": "Phí vận chuyển",
+      "shippingFree": "Miễn phí",
+      "tax": "Thuế",
+      "total": "Tổng cộng",
+      "checkout": "Tiến hành thanh toán",
+      "itemCount": "{{count}} sản phẩm"
+    },
+    "updating": "Đang cập nhật...",
+    "added": "Đã thêm vào giỏ hàng",
+    "removed": "Đã xóa khỏi giỏ hàng",
+    "cleared": "Đã xóa toàn bộ giỏ hàng"
+  },
+  "checkout": {
+    "title": "Thanh toán",
+    "shippingInfo": "Thông tin giao hàng",
+    "paymentMethod": "Phương thức thanh toán",
+    "orderSummary": "Tóm tắt đơn hàng",
+    "shippingAddress": "Địa chỉ giao hàng",
+    "shippingAddressRequired": "Địa chỉ giao hàng là bắt buộc",
+    "shippingAddressPlaceholder": "Nhập địa chỉ nhận hàng đầy đủ",
+    "note": "Ghi chú đơn hàng (tùy chọn)",
+    "notePlaceholder": "Hướng dẫn đặc biệt cho đơn hàng của bạn...",
+    "noteRequired": "Ghi chú tối đa 300 ký tự",
+    "payment": {
+      "cod": "Thanh toán khi nhận hàng",
+      "codDesc": "Trả tiền mặt khi nhận hàng",
+      "bankTransfer": "Chuyển khoản ngân hàng",
+      "bankTransferDesc": "Chuyển khoản vào tài khoản của chúng tôi",
+      "momo": "Ví MoMo",
+      "momoDesc": "Thanh toán qua ví điện tử MoMo"
+    },
+    "placeOrder": "Đặt hàng",
+    "placingOrder": "Đang đặt hàng...",
+    "success": {
+      "title": "Đặt hàng thành công!",
+      "message": "Đơn hàng #{{orderId}} của bạn đã được tiếp nhận. Chúng tôi sẽ thông báo khi đơn hàng được xác nhận.",
+      "viewOrder": "Xem đơn hàng",
+      "continueShopping": "Tiếp tục mua sắm"
+    },
+    "error": {
+      "cartEmpty": "Giỏ hàng của bạn đang trống",
+      "generic": "Đặt hàng thất bại. Vui lòng thử lại."
+    }
+  },
+  "orders": {
+    "title": "Đơn hàng của tôi",
+    "noOrders": "Không tìm thấy đơn hàng",
+    "noOrdersSubtitle": "Bạn chưa đặt đơn hàng nào.",
+    "shopNow": "Mua sắm ngay",
+    "orderId": "Đơn hàng #{{id}}",
+    "placedOn": "Đặt ngày {{date}}",
+    "filter": {
+      "allStatus": "Tất cả",
+      "from": "Từ ngày",
+      "to": "Đến ngày"
+    },
+    "status": {
+      "PENDING": "Chờ xác nhận",
+      "CONFIRMED": "Đã xác nhận",
+      "SHIPPING": "Đang giao hàng",
+      "DELIVERED": "Đã giao hàng",
+      "CANCELLED": "Đã hủy"
+    },
+    "detail": {
+      "title": "Chi tiết đơn hàng",
+      "shippingAddress": "Địa chỉ giao hàng",
+      "paymentMethod": "Phương thức thanh toán",
+      "note": "Ghi chú",
+      "items": "Sản phẩm đã đặt",
+      "timeline": "Lịch sử đơn hàng",
+      "cancelOrder": "Hủy đơn hàng",
+      "cancelReason": "Lý do hủy đơn",
+      "cancelReasonPlaceholder": "Vui lòng nêu rõ lý do bạn muốn hủy đơn hàng...",
+      "confirmCancel": "Xác nhận hủy",
+      "cancelling": "Đang hủy...",
+      "cancelSuccess": "Hủy đơn hàng thành công",
+      "cannotCancel": "Đơn hàng này không thể hủy",
+      "cancelFailed": "Hủy đơn hàng thất bại. Vui lòng thử lại."
+    },
+    "summary": {
+      "itemsTotal": "Tổng tiền hàng",
+      "shipping": "Phí vận chuyển",
+      "grandTotal": "Tổng thanh toán"
+    },
+    "admin": {
+      "title": "Quản lý đơn hàng",
+      "table": {
+        "orderId": "Mã đơn hàng",
+        "customer": "Khách hàng",
+        "items": "Sản phẩm",
+        "total": "Tổng tiền",
+        "payment": "Thanh toán",
+        "status": "Trạng thái",
+        "date": "Ngày đặt",
+        "actions": "Thao tác"
+      },
+      "updateStatus": "Cập nhật trạng thái",
+      "statusUpdated": "Đã cập nhật trạng thái đơn hàng"
+    }
+  },
+  "reviews": {
+    "title": "Đánh giá của khách hàng",
+    "rating": "Đánh giá",
+    "averageRating": "Điểm đánh giá trung bình",
+    "totalReviews": "{{count}} đánh giá",
+    "noReviews": "Chưa có đánh giá",
+    "writeReview": "Viết đánh giá",
+    "editReview": "Chỉnh sửa đánh giá",
+    "yourRating": "Đánh giá của bạn",
+    "comment": "Nhận xét",
+    "commentPlaceholder": "Chia sẻ trải nghiệm của bạn về sản phẩm này...",
+    "submitReview": "Gửi đánh giá",
+    "submitting": "Đang gửi...",
+    "updateReview": "Cập nhật đánh giá",
+    "deleteReview": "Xóa đánh giá",
+    "deleteConfirm": "Bạn có chắc chắn muốn xóa đánh giá của mình không?",
+    "reviewPosted": "Đánh giá đã được gửi thành công",
+    "reviewUpdated": "Đánh giá đã được cập nhật",
+    "reviewDeleted": "Đánh giá đã được xóa",
+    "alreadyReviewed": "Bạn đã đánh giá sản phẩm này rồi",
+    "mustPurchase": "Bạn chỉ có thể đánh giá sản phẩm đã mua",
+    "stars": {
+      "1": "Rất tệ",
+      "2": "Tệ",
+      "3": "Bình thường",
+      "4": "Tốt",
+      "5": "Xuất sắc"
+    }
+  },
+  "profile": {
+    "title": "Hồ sơ của tôi",
+    "personalInfo": "Thông tin cá nhân",
+    "security": "Bảo mật",
+    "fullName": "Họ và tên",
+    "fullNamePlaceholder": "Nhập họ và tên",
+    "email": "Địa chỉ email",
+    "phone": "Số điện thoại",
+    "phonePlaceholder": "Nhập số điện thoại",
+    "address": "Địa chỉ",
+    "addressPlaceholder": "Nhập địa chỉ của bạn",
+    "saveChanges": "Lưu thay đổi",
+    "saving": "Đang lưu...",
+    "updateSuccess": "Cập nhật hồ sơ thành công",
+    "memberSince": "Thành viên từ {{date}}",
+    "roleLabel": "Vai trò",
+    "updateInfo": "Cập nhật thông tin cá nhân",
+    "myOrders": "Đơn hàng của tôi",
+    "logout": "Đăng xuất",
+    "cancel": "Hủy",
+    "role": {
+      "ROLE_USER": "Khách hàng",
+      "ROLE_ADMIN": "Quản trị viên"
+    },
+    "invalidFullName": "Họ và tên không hợp lệ. Vui lòng nhập họ và tên đầy đủ.",
+    "invalidPhone": "Số điện thoại không hợp lệ. Vui lòng nhập số điện thoại hợp lệ (10-11 chữ số).",
+    "updateError": "Cập nhật hồ sơ thất bại. Vui lòng thử lại.",
+    "changePassword": {
+      "title": "Đổi mật khẩu",
+      "oldPassword": "Mật khẩu hiện tại",
+      "oldPasswordPlaceholder": "Nhập mật khẩu hiện tại",
+      "newPassword": "Mật khẩu mới",
+      "newPasswordPlaceholder": "Nhập mật khẩu mới",
+      "submit": "Đổi mật khẩu",
+      "loading": "Đang cập nhật...",
+      "success": "Đổi mật khẩu thành công",
+      "cancel": "Hủy",
+      "confirmNewPasswordPlaceholder": "Nhập lại mật khẩu mới",
+      "error": {
+        "wrongOldPassword": "Mật khẩu hiện tại không đúng",
+        "samePassword": "Mật khẩu mới phải khác mật khẩu hiện tại",
+        "invalidNewPassword": "Mật khẩu mới không hợp lệ. Vui lòng đảm bảo mật khẩu có ít nhất 8 ký tự, bao gồm chữ hoa, chữ thường và số.",
+        "invalidConfirmPassword": "Mật khẩu xác nhận không khớp",
+        "generic": "Đổi mật khẩu thất bại. Vui lòng thử lại."
+      }
+    }
+  },
+  "users": {
+    "admin": {
+      "title": "Quản lý người dùng",
+      "table": {
+        "fullName": "Họ và tên",
+        "email": "Email",
+        "phone": "Điện thoại",
+        "role": "Vai trò",
+        "status": "Trạng thái",
+        "joinedAt": "Ngày tham gia",
+        "actions": "Thao tác"
+      },
+      "status": {
+        "active": "Hoạt động",
+        "locked": "Đã khóa"
+      },
+      "lockUser": "Khóa tài khoản",
+      "unlockUser": "Mở khóa tài khoản",
+      "lockConfirm": "Bạn có chắc chắn muốn khóa tài khoản của {{name}} không?",
+      "unlockConfirm": "Bạn có chắc chắn muốn mở khóa tài khoản của {{name}} không?",
+      "lockSuccess": "Đã khóa tài khoản thành công",
+      "unlockSuccess": "Đã mở khóa tài khoản thành công"
+    }
+  },
+  "statistics": {
+    "title": "Bảng điều khiển",
+    "overview": {
+      "totalRevenue": "Tổng doanh thu",
+      "totalOrders": "Tổng đơn hàng",
+      "totalProducts": "Tổng sản phẩm",
+      "totalUsers": "Tổng người dùng",
+      "pendingOrders": "Đơn hàng chờ xử lý"
+    },
+    "revenue": {
+      "title": "Tổng quan doanh thu",
+      "chartTitle": "Doanh thu & Đơn hàng",
+      "totalRevenue": "Tổng doanh thu",
+      "totalOrders": "Tổng đơn hàng",
+      "from": "Từ ngày",
+      "to": "Đến ngày",
+      "apply": "Áp dụng",
+      "revenue": "Doanh thu",
+      "orders": "Đơn hàng",
+      "errorRangeTooLong": "Khoảng thời gian không được vượt quá 30 ngày"
+    },
+    "topProducts": {
+      "title": "Sản phẩm bán chạy nhất",
+      "rank": "Hạng",
+      "product": "Sản phẩm",
+      "sold": "Đã bán",
+      "revenue": "Doanh thu",
+      "limit": "Hiển thị top"
+    },
+    "topCustomers": {
+      "title": "Khách hàng hàng đầu",
+      "rank": "Hạng",
+      "customer": "Khách hàng",
+      "email": "Email",
+      "totalOrders": "Đơn hàng",
+      "totalSpent": "Tổng chi tiêu",
+      "limit": "Hiển thị top"
+    },
+    "orderLabel": "đơn hàng",
+    "allTime": {
+      "label": "Tổng quan",
+      "orders": "Tổng số đơn hàng: {{count}}",
+      "ordersLabel": "Đơn hàng",
+      "customer": "Tổng số khách hàng: {{count}}",
+      "customerLabel": "Khách hàng",
+      "product": "Tổng số sản phẩm: {{count}}",
+      "productLabel": "Sản phẩm"
+    },
+    "thisMonth": {
+      "label": "Tháng này",
+      "orders": "Tổng số đơn hàng: {{count}}",
+      "ordersLabel": "Đơn hàng",
+      "revenue": "Tổng doanh thu: {{amount}}",
+      "revenueLabel": "Doanh thu",
+      "customer": "Tổng số khách hàng: {{count}}",
+      "customerLabel": "Khách hàng"
+    },
+    "today": {
+      "label": "Hôm nay",
+      "orders": "Tổng số đơn hàng: {{count}}",
+      "ordersLabel": "Đơn hàng",
+      "revenue": "Tổng doanh thu: {{amount}}",
+      "revenueLabel": "Doanh thu",
+      "customer": "Tổng số khách hàng mới: {{count}}",
+      "customerLabel": "Khách hàng mới"
+    },
+    "orderStatus": {
+      "title": "Trạng thái đơn hàng",
+      "pending": "Chờ xác nhận",
+      "confirmed": "Đã xác nhận",
+      "shipping": "Đang giao hàng",
+      "delivered": "Đã giao hàng",
+      "cancelled": "Đã hủy"
+    }
+  },
+  "admin": {
+    "sidebar": {
+      "dashboard": "Bảng điều khiển",
+      "products": "Sản phẩm",
+      "categories": "Danh mục",
+      "orders": "Đơn hàng",
+      "users": "Người dùng",
+      "statistics": "Thống kê",
+      "settings": "Cài đặt"
+    },
+    "topbar": {
+      "adminPanel": "Trang quản trị",
+      "viewSite": "Xem trang web",
+      "logout": "Đăng xuất"
+    },
+    "orders": {
+      "title": "Quản lý đơn hàng",
+      "searchPlaceholder": "Tìm kiếm theo mã đơn hoặc tên khách hàng...",
+      "empty": "Không có đơn hàng nào",
+      "table": {
+        "code": "Mã đơn",
+        "customer": "Khách hàng",
+        "date": "Ngày đặt",
+        "amount": "Tổng tiền",
+        "status": "Trạng thái",
+        "actions": {
+          "confirmed": "Xác nhận",
+          "ship": "Giao hàng",
+          "delivered": "Hoàn thành",
+          "cancel": "Huỷ đơn",
+          "detail": "Chi tiết",
+          "label": "Thao tác"
+        }
+      },
+      "status": {
+        "all": "Tất cả",
+        "pending": "Chờ xác nhận",
+        "confirmed": "Đã xác nhận",
+        "shipping": "Đang giao",
+        "delivered": "Đã giao",
+        "cancelled": "Đã huỷ"
+      },
+      "actions": {
+        "confirm": "Xác nhận",
+        "ship": "Giao hàng",
+        "deliver": "Hoàn thành",
+        "cancel": "Huỷ đơn"
+      },
+      "modal": {
+        "title": "Xác nhận cập nhật trạng thái",
+        "description": "Bạn có chắc chắn muốn chuyển đơn hàng {{code}} sang trạng thái \"{{status}}\" không?"
+      },
+      "toast": {
+        "updateSuccess": "Cập nhật trạng thái đơn hàng thành công",
+        "updateFailed": "Cập nhật trạng thái thất bại",
+        "statusUpdated": "Đơn hàng {{orderCode}} → {{status}}"
+      },
+      "dateRangeCalendar": {
+        "start": "Từ ngày",
+        "end": "Đến ngày"
+      },
+      "detail": {
+        "back": "Quay lại",
+        "customer": "Thông tin khách hàng",
+        "payment": "Thông tin thanh toán",
+        "items": "Sản phẩm trong đơn hàng",
+        "name": "Khách hàng",
+        "address": "Địa chỉ giao hàng",
+        "note": "Ghi chú",
+        "paymentMethod": "Phương thức thanh toán",
+        "paymentStatus": "Trạng thái thanh toán",
+        "transactionId": "Mã giao dịch",
+        "total": "Tổng thanh toán"
+      },
+      "paymentMethod": {
+        "COD": "Thanh toán khi nhận hàng",
+        "BANKING": "Chuyển khoản ngân hàng"
+      },
+      "paymentStatus": {
+        "PENDING": "Chưa thanh toán",
+        "SUCCESS": "Thanh toán thành công",
+        "FAILED": "Thanh toán thất bại",
+        "REFUNDED": "Đã hoàn tiền"
+      }
+    }
+  },
+  "errors": {
+    "403": {
+      "title": "Truy cập bị từ chối",
+      "message": "Bạn không có quyền truy cập trang này."
+    },
+    "404": {
+      "title": "Không tìm thấy trang",
+      "message": "Trang bạn đang tìm kiếm không tồn tại.",
+      "goHome": "Về trang chủ"
+    },
+    "500": {
+      "title": "Lỗi máy chủ",
+      "message": "Đã xảy ra sự cố từ phía chúng tôi. Vui lòng thử lại sau."
+    },
+    "network": "Lỗi kết nối mạng. Vui lòng kiểm tra kết nối internet của bạn.",
+    "unauthorized": "Phiên làm việc đã hết hạn. Vui lòng đăng nhập lại.",
+    "generic": "Đã xảy ra lỗi. Vui lòng thử lại."
+  },
+  "pagination": {
+    "previous": "Trước",
+    "next": "Sau",
+    "first": "Đầu",
+    "last": "Cuối",
+    "pageOf": "Trang {{current}} / {{total}}"
+  },
+  "imageUpload": {
+    "dragDrop": "Kéo thả hình ảnh vào đây",
+    "orClick": "hoặc nhấp để chọn file",
+    "maxFiles": "Tối đa {{max}} file",
+    "maxSize": "Kích thước tối đa: {{size}}MB mỗi file",
+    "supportedFormats": "Hỗ trợ: JPG, PNG, WebP",
+    "uploading": "Đang tải lên...",
+    "uploadFailed": "Tải lên thất bại",
+    "fileTooLarge": "File quá lớn (tối đa {{size}}MB)",
+    "invalidFormat": "Định dạng file không hợp lệ"
+  },
+  "dateRange": {
+    "startDate": "Ngày bắt đầu",
+    "endDate": "Ngày kết thúc",
+    "apply": "Áp dụng",
+    "reset": "Đặt lại",
+    "last7Days": "7 ngày qua",
+    "last30Days": "30 ngày qua",
+    "last3Months": "3 tháng qua",
+    "thisYear": "Năm nay"
+  },
+  "footer": {
+    "about_text": "Shop Vibe - Nơi mang đến trải nghiệm mua sắm tuyệt vời nhất với những sản phẩm chất lượng và xu hướng mới nhất.",
+    "categories": "Danh mục",
+    "support": "Hỗ trợ",
+    "contact": "Liên hệ",
+    "rights": "Tất cả các quyền được bảo lưu.",
+    "links": {
+      "clothing": "Quần áo",
+      "shoes": "Giày dép",
+      "accessories": "Phụ kiện",
+      "faq": "Câu hỏi thường gặp",
+      "shipping": "Chính sách giao hàng",
+      "returns": "Đổi trả hàng"
+    }
+  }
+}

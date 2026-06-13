@@ -1,0 +1,774 @@
+{
+  "dateRangeCalendar": {
+    "start": "Start date",
+    "end": "End date",
+    "selectEnd": "Select end date…",
+    "days": "days",
+    "weekDays": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
+    "months": [
+      "January",
+      "February",
+      "March",
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October",
+      "November",
+      "December"
+    ]},  
+  "common": {
+    "clear": "Clear",
+    "appName": "ShopVibe",
+    "loading": "Loading...",
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "create": "Create",
+    "update": "Update",
+    "confirm": "Confirm",
+    "close": "Close",
+    "back": "Back",
+    "next": "Next",
+    "submit": "Submit",
+    "search": "Search",
+    "filter": "Filter",
+    "reset": "Reset",
+    "viewAll": "View All",
+    "viewDetail": "View Detail",
+    "noData": "No data available",
+    "noResults": "No results found",
+    "error": "An error occurred",
+    "tryAgain": "Try Again",
+    "required": "This field is required",
+    "yes": "Yes",
+    "no": "No",
+    "actions": "Actions",
+    "status": "Status",
+    "createdAt": "Created At",
+    "updatedAt": "Updated At",
+    "total": "Total",
+    "quantity": "Quantity",
+    "price": "Price",
+    "name": "Name",
+    "description": "Description",
+    "image": "Image",
+    "images": "Images",
+    "notes": "Notes",
+    "page": "Page",
+    "of": "of",
+    "showing": "Showing",
+    "results": "results",
+    "rowsPerPage": "Rows per page",
+    "successSaved": "Saved successfully",
+    "successDeleted": "Deleted successfully",
+    "successUpdated": "Updated successfully",
+    "successCreated": "Created successfully",
+    "confirmDeleteTitle": "Confirm Delete",
+    "confirmDeleteMessage": "Are you sure you want to delete this item? This action cannot be undone."
+  },
+
+  "nav": {
+    "home": "Home",
+    "products": "Products",
+    "cart": "Cart",
+    "orders": "My Orders",
+    "profile": "Profile",
+    "login": "Login",
+    "register": "Register",
+    "logout": "Logout",
+    "admin": "Admin Panel",
+    "productManager": "Product Manager",
+    "search": "Search products...",
+    "userManager": "User Manager",
+    "orderManager": "Order Manager"
+  },
+
+  "auth": {
+    "login": {
+      "title": "Sign In",
+      "subtitle": "Welcome back! Please enter your details.",
+      "email": "Email Address",
+      "emailPlaceholder": "Enter your email",
+      "password": "Password",
+      "passwordPlaceholder": "Enter your password",
+      "submit": "Sign In",
+      "loading": "Signing in...",
+      "noAccount": "Don't have an account?",
+      "registerLink": "Sign up",
+      "forgotPassword": "Forgot password?",
+      "success": "Logged in successfully",
+      "error": {
+        "invalidCredentials": "Invalid email or password",
+        "accountLocked": "Your account has been locked. Please contact support.",
+        "generic": "Login failed. Please try again."
+      }
+    },
+   "register": {
+  "title": "Create Account",
+  "subtitle": "Join ShopVibe today!",
+  "fullName": "Full Name",
+  "fullNamePlaceholder": "Enter your full name",
+  "email": "Email Address",
+  "emailPlaceholder": "Enter your email address",
+  "password": "Password",
+  "passwordPlaceholder": "Create a new password",
+  "confirmPassword": "Confirm Password",
+  "confirmPasswordPlaceholder": "Re-enter your password",
+  "phone": "Phone Number",
+  "phonePlaceholder": "Enter your phone number",
+  "submit": "Create Account",
+  "loading": "Creating account...",
+  "hasAccount": "Already have an account?",
+  "loginLink": "Sign In",
+  "success": "Account created successfully! Please sign in.",
+  "error": {
+    "emailExists": "This email is already registered",
+    "passwordMismatch": "Passwords do not match",
+    "generic": "Registration failed. Please try again.",
+      "invalidEmail": "Invalid email address",
+    "weakPassword": "Password is too weak. Please choose a stronger password.",
+      "invalidPhone": "Invalid phone number. Please enter a valid phone number.",
+      "invalidFullName": "Invalid full name. Please enter your full name."
+  }
+},
+    "changePassword": {
+      "title": "Change Password",
+      "oldPassword": "Current Password",
+      "oldPasswordPlaceholder": "Enter current password",
+      "newPassword": "New Password",
+      "newPasswordPlaceholder": "Enter new password",
+      "submit": "Change Password",
+      "loading": "Updating...",
+      "success": "Password changed successfully",
+      "error": {
+        "wrongOldPassword": "Current password is incorrect",
+        "samePassword": "New password must be different from current password",
+        "generic": "Failed to change password. Please try again."
+      }
+    },
+    "logout": {
+      "confirm": "Are you sure you want to sign out?"
+    }
+  },
+
+  "validation": {
+    "required": "{{field}} is required",
+    "email": "Please enter a valid email address",
+    "minLength": "{{field}} must be at least {{min}} characters",
+    "maxLength": "{{field}} must not exceed {{max}} characters",
+    "passwordStrength": "Password must contain at least 1 uppercase letter and 1 number",
+    "passwordMatch": "Passwords do not match",
+    "phone": "Please enter a valid phone number (10-11 digits)",
+    "positiveNumber": "{{field}} must be greater than 0",
+    "nonNegativeNumber": "{{field}} cannot be negative",
+    "integer": "{{field}} must be a whole number",
+    "minRating": "Please select at least 1 star",
+    "maxRating": "Rating cannot exceed 5 stars",
+    "selectCategory": "Please select a category"
+  },
+
+  "products": {
+    "title": "Products",
+    "stock": "Stock",
+        "searchResult": "Found {{count}} products",
+    "productList": "Product List",
+    "searchTitle": "Search Results",
+    "searchPlaceholder": "Search by name or description...",
+    "searchHint": "Enter at least 2 characters to search",
+    "noProducts": "No products found",
+    "noSearchResults": "No products match \"{{keyword}}\"",
+    "loadMore": "Load More",
+    "sort": {
+      "label": "Sort by",
+      "newest": "Newest",
+      "oldest": "Oldest",
+      "priceAsc": "Price: Low to High",
+      "priceDesc": "Price: High to Low"
+    },
+    "filter": {
+      "category": "Category",
+      "allCategories": "All Categories",
+      "priceRange": "Price Range",
+      "minPrice": "Min Price",
+      "maxPrice": "Max Price"
+    },
+    "detail": {
+      "addToCart": "Add to Cart",
+      "addingToCart": "Adding...",
+      "outOfStock": "Out of Stock",
+      "inStock": "In Stock",
+      "stockLeft": "{{count}} left in stock",
+      "quantity": "Quantity",
+      "category": "Category",
+      "sku": "SKU",
+      "share": "Share",
+      "description": "Description",
+      "reviews": "Reviews",
+      "noReviews": "No reviews yet. Be the first to review!",
+      "addedToCart": "Added to cart successfully!",
+      "addToCartFail": "Failed to add to cart. Please try again."
+
+    },
+    "card": {
+      "viewDetail": "View Detail",
+      "addToCart": "Add to Cart"
+    },
+    "admin": {
+       "rotateScreen":{
+        "title": "Rotate your screen",
+        "message": "to view product list"
+      },
+      "title": "Product Management",
+      "addNew": "Add New Product",
+      "editProductLabel": "Edit Product",
+        "editProduct": "Edit",
+      "deleteProduct": "Delete",
+      "createProduct": "Create Product",
+      "totalProduct": "Total Products: {{count}}",
+      "deleteFilter": "Clear Filters",
+      "categoriesAll": "All Categories",
+      "searchPlaceholder": "Search by name or description...",
+      "noProducts": "No products found",
+      "sort": {
+        "newest": "Newest",
+        "oldest": "Oldest",
+        "priceAsc": "Price: Low to High",
+        "priceDesc": "Price: High to Low"
+      },
+      "table": {
+        "id": "ID",
+        "name": "Product Name",
+        "category": "Category",
+        "price": "Price",
+        "stock": "Stock",
+        "rating": "Rating",
+        "images": "Images",
+        "actions": "Actions"
+      },
+      "form": {
+        "name": "Product Name",
+        "namePlaceholder": "Enter product name",
+        "description": "Description",
+        "descriptionPlaceholder": "Enter product description",
+        "price": "Price (VND)",
+        "pricePlaceholder": "Enter price",
+        "stock": "Stock Quantity",
+        "stockPlaceholder": "Enter stock quantity",
+        "category": "Category",
+        "categoryPlaceholder": "Select a category",
+        "images": "Product Images",
+        "imagesHint": "The first image will be the main image. Supports multiple files.",
+        "saveProduct": "Save Product",
+        "saving": "Saving...",
+        "cancel": "Cancel",
+
+        "addImage": "Add Image",
+
+
+        "errors": {
+          "nameRequired": "Product name is required",
+          "priceRequired": "Product price is required",
+          "priceInvalid": "Product price is invalid",
+          "stockInvalid": "Stock quantity is invalid",
+          "categoryRequired": "Category is required",
+          "imagesLimit": "You can only upload up to 5 images",
+          "imageRequired":  "Please select at least 1 image" 
+        }
+      },
+      "deleteConfirm": "Are you sure you want to delete \"{{name}}\"?",
+      "deleteImageConfirm": "Are you sure you want to delete this image?",
+       "deleteForm": {
+        "title": "Confirm Deletion",
+        "message": "This action cannot be undone. Please confirm to proceed."
+      },
+      "message": {
+        "created": "Product has been created successfully",
+        "updated": "Product has been updated successfully",
+        "deleted": "Product has been deleted successfully"
+        },
+         "review":{
+          "title": "Customer Reviews",
+          "totalReviews": "{{count}} reviews",
+          "noReviews": "No reviews yet"
+        }
+    }
+  },
+
+  "categories": {
+    "title": "Categories",
+    "all": "All Categories",
+    "noCategories": "No categories found",
+    "admin": {
+      "title": "Category Management",
+      "addNew": "Add New Category",
+      "editCategory": "Edit Category",
+      "form": {
+        "name": "Category Name",
+        "namePlaceholder": "Enter category name",
+        "parentCategory": "Parent Category",
+        "parentCategoryPlaceholder": "None (Root Category)",
+        "save": "Save Category"
+      },
+      "table": {
+        "id": "ID",
+        "name": "Name",
+        "parent": "Parent Category",
+        "children": "Subcategories",
+        "actions": "Actions"
+      },
+      "deleteConfirm": "Are you sure you want to delete \"{{name}}\"? This will also affect subcategories."
+    }
+  },
+
+  "cart": {
+    "title": "Shopping Cart",
+    "empty": "Your cart is empty",
+    "emptySubtitle": "Looks like you haven't added anything yet.",
+    "continueShopping": "Continue Shopping",
+    "item": "item",
+    "items": "items",
+    "product": "Product",
+    "unitPrice": "Unit Price",
+    "quantity": "Quantity",
+    "subtotal": "Subtotal",
+    "remove": "Remove",
+    "removeConfirm": "Remove this item from cart?",
+    "clearCart": "Clear Cart",
+    "clearCartConfirm": "Are you sure you want to clear your entire cart?",
+    "summary": {
+      "title": "Order Summary",
+      "subtotal": "Subtotal",
+      "quantity": "Total Quantity",
+      "shipping": "Shipping",
+      "shippingFree": "Free",
+      "tax": "Tax",
+      "total": "Total",
+      "checkout": "Proceed to Checkout",
+      "itemCount": "{{count}} item(s)"
+    },
+    "updating": "Updating...",
+    "added": "Item added to cart",
+    "removed": "Item removed from cart",
+    "cleared": "Cart cleared"
+  },
+
+  "checkout": {
+    "title": "Checkout",
+    "shippingInfo": "Shipping Information",
+    "paymentMethod": "Payment Method",
+    "orderSummary": "Order Summary",
+    "shippingAddress": "Shipping Address",
+    "shippingAddressRequired": "Shipping address is required",
+    "shippingAddressPlaceholder": "Enter your full delivery address",
+    "noteRequired": "Note must not exceed 300 characters",
+    "note": "Order Note (optional)",
+    "notePlaceholder": "Special instructions for your order...",
+    "payment": {
+      "cod": "Cash on Delivery",
+      "codDesc": "Pay when you receive the package",
+      "bankTransfer": "Bank Transfer",
+      "bankTransferDesc": "Transfer to our bank account",
+      "momo": "MoMo Wallet",
+      "momoDesc": "Pay via MoMo e-wallet"
+    },
+    "placeOrder": "Place Order",
+    "placingOrder": "Placing Order...",
+    "success": {
+      "title": "Order Placed Successfully!",
+      "message": "Your order #{{orderId}} has been received. We'll notify you when it's confirmed.",
+      "viewOrder": "View Order",
+      "continueShopping": "Continue Shopping"
+    },
+    "error": {
+      "cartEmpty": "Your cart is empty",
+      "generic": "Failed to place order. Please try again."
+    }
+  },
+
+  "orders": {
+    "title": "My Orders",
+    "noOrders": "No orders found",
+    "noOrdersSubtitle": "You haven't placed any orders yet.",
+    "shopNow": "Shop Now",
+    "orderId": "Order #{{id}}",
+    "placedOn": "Placed on {{date}}",
+    "filter": {
+      "allStatus": "All Status",
+      "from": "From Date",
+      "to": "To Date"
+    },
+    "status": {
+      "PENDING": "Pending",
+      "CONFIRMED": "Confirmed",
+      "SHIPPING": "Shipping",
+      "DELIVERED": "Delivered",
+      "CANCELLED": "Cancelled"
+    },
+    "detail": {
+      "title": "Order Detail",
+      "shippingAddress": "Shipping Address",
+      "paymentMethod": "Payment Method",
+      "note": "Note",
+      "items": "Ordered Items",
+      "timeline": "Order Timeline",
+      "cancelOrder": "Cancel Order",
+      "cancelReason": "Reason for Cancellation",
+      "cancelReasonPlaceholder": "Please explain why you want to cancel...",
+      "confirmCancel": "Confirm Cancellation",
+      "cancelling": "Cancelling...",
+      "cancelSuccess": "Order cancelled successfully",
+      "cannotCancel": "This order cannot be cancelled",
+      "cancelFailed": "Failed to cancel order. Please try again."
+    },
+    "summary": {
+      "itemsTotal": "Items Total",
+      "shipping": "Shipping",
+      "grandTotal": "Grand Total"
+    },
+    "admin": {
+      "title": "Order Management",
+      "table": {
+        "orderId": "Order ID",
+        "customer": "Customer",
+        "items": "Items",
+        "total": "Total",
+        "payment": "Payment",
+        "status": "Status",
+        "date": "Date",
+        "actions": "Actions"
+      },
+      "updateStatus": "Update Status",
+      "statusUpdated": "Order status updated"
+    }
+  },
+
+  "reviews": {
+    "title": "Customer Reviews",
+    "rating": "Rating",
+    "averageRating": "Average Rating",
+    "totalReviews": "{{count}} reviews",
+    "noReviews": "No reviews yet",
+    "writeReview": "Write a Review",
+    "editReview": "Edit Review",
+    "yourRating": "Your Rating",
+    "comment": "Review",
+    "commentPlaceholder": "Share your experience with this product...",
+    "submitReview": "Submit Review",
+    "submitting": "Submitting...",
+    "updateReview": "Update Review",
+    "deleteReview": "Delete Review",
+    "deleteConfirm": "Are you sure you want to delete your review?",
+    "reviewPosted": "Review submitted successfully",
+    "reviewUpdated": "Review updated successfully",
+    "reviewDeleted": "Review deleted successfully",
+    "alreadyReviewed": "You have already reviewed this product",
+    "mustPurchase": "You can only review products you have purchased",
+    "stars": {
+      "1": "Terrible",
+      "2": "Poor",
+      "3": "Average",
+      "4": "Good",
+      "5": "Excellent"
+    }
+  },
+
+  "profile": {
+    "title": "My Profile",
+    "personalInfo": "Personal Information",
+    "security": "Security",
+    "fullName": "Full Name",
+    "fullNamePlaceholder": "Enter your full name",
+    "email": "Email Address",
+    "phone": "Phone Number",
+    "phonePlaceholder": "Enter your phone number",
+    "address": "Address",
+    "addressPlaceholder": "Enter your address",
+    "saveChanges": "Save Changes",
+    "saving": "Saving...",
+    "updateSuccess": "Profile updated successfully",
+    "memberSince": "Member since {{date}}",
+    "roleLabel": "Role",
+    "updateInfo": "Update Personal Information",
+    "myOrders": "My Orders",
+    "logout": "Logout",
+    "cancel": "Cancel",
+    "role": {
+      "ROLE_USER": "Customer",
+      "ROLE_ADMIN": "Administrator"
+    },
+     "invalidFullName": "Full name is invalid. Please enter your full name.",
+    "invalidPhone": "Phone number is invalid. Please enter a valid phone number (10-11 digits).",
+    "updateError": "Failed to update profile. Please try again.",
+    "changePassword": {
+      "title": "Change Password",
+      "oldPassword": "Current Password",
+      "oldPasswordPlaceholder": "Enter current password",
+      "newPassword": "New Password",
+      "newPasswordPlaceholder": "Enter new password",
+      "submit": "Change Password",
+      "loading": "Updating...",
+      "success": "Password changed successfully",
+      "cancel": "Cancel",
+      "error": {
+        "wrongOldPassword": "Current password is incorrect",
+        "samePassword": "New password must be different from current password",
+        "generic": "Failed to change password. Please try again."
+      }
+    }
+  },
+
+  "users": {
+    "admin": {
+      "title": "User Management",
+      "table": {
+        "id": "ID",
+        "fullName": "Full Name",
+        "email": "Email",
+        "phone": "Phone",
+        "role": "Role",
+        "status": "Status",
+        "joinedAt": "Joined At",
+        "actions": "Actions"
+      },
+      "status": {
+        "active": "Active",
+        "locked": "Locked"
+      },
+      "lockUser": "Lock Account",
+      "unlockUser": "Unlock Account",
+      "lockConfirm": "Are you sure you want to lock {{name}}'s account?",
+      "unlockConfirm": "Are you sure you want to unlock {{name}}'s account?",
+      "lockSuccess": "Account locked successfully",
+      "unlockSuccess": "Account unlocked successfully"
+    }
+  },
+
+  "statistics": {
+    "title": "Dashboard",
+    "overview": {
+      "totalRevenue": "Total Revenue",
+      "totalOrders": "Total Orders",
+      "totalProducts": "Total Products",
+      "totalUsers": "Total Users",
+      "pendingOrders": "Pending Orders"
+    },
+    "revenue": {
+      "title": "Revenue Overview",
+      "chartTitle": "Revenue & Orders",
+      "totalRevenue": "Total Revenue",
+      "totalOrders": "Total Orders",
+      "from": "From",
+      "to": "To",
+      "apply": "Apply",
+      "revenue": "Revenue",
+      "orders": "Orders",
+      "errorRangeTooLong": "Date range cannot exceed 30 days"
+
+    },
+    "topProducts": {
+      "title": "Top Selling Products",
+      "rank": "Rank",
+      "product": "Product",
+      "sold": "Units Sold",
+      "revenue": "Revenue",
+      "limit": "Show top"
+    },
+    "topCustomers": {
+      "title": "Top Customers",
+      "rank": "Rank",
+      "customer": "Customer",
+      "email": "Email",
+      "totalOrders": "Orders",
+      "totalSpent": "Total Spent",
+      "limit": "Show top"
+    },
+    "orderStatus": {
+      "title": "Orders by Status",
+      "pending": "Pending",
+      "confirmed": "Confirmed",
+      "shipping": "Shipping",
+      "delivered": "Delivered",
+      "cancelled": "Cancelled"
+    }, 
+    "orderLabel": "orders",
+    "allTime": {
+      "label": "All Time",
+      "orders": "Total Orders: {{count}}",
+      "ordersLabel": "Orders",
+      "customer": "Total Customers: {{count}}",
+      "customerLabel": "Customers",
+      "product": "Total Products: {{count}}",
+      "productLabel": "Products"
+    },
+    "thisMonth": {
+      "label": "This Month",
+      "orders": "Total Orders: {{count}}",
+      "ordersLabel": "Orders",
+      "revenue": "Total Revenue: {{amount}}",
+      "revenueLabel": "Revenue",
+      "customer": "Total Customers: {{count}}",
+      "customerLabel": "Customers"
+    },
+     "today": {
+      "label": "This Month",
+      "orders": "Total Orders: {{count}}",
+      "ordersLabel": "Orders",
+      "revenue": "Total Revenue: {{amount}}",
+      "revenueLabel": "Revenue",
+      "customer": "Total Customers: {{count}}",
+      "customerLabel": "Customers"
+    }
+  },
+
+  "admin": {
+    "sidebar": {
+      "dashboard": "Dashboard",
+      "products": "Products",
+      "categories": "Categories",
+      "orders": "Orders",
+      "users": "Users",
+      "statistics": "Statistics",
+      "settings": "Settings"
+    },
+    "topbar": {
+      "adminPanel": "Admin Panel",
+      "viewSite": "View Site",
+      "logout": "Logout"
+    },
+    "orders": {
+      "title": "Order Management",
+      "searchPlaceholder": "Search by order code or customer name...",
+      "empty": "No orders found",
+
+      "table": {
+        "code": "Order Code",
+        "customer": "Customer",
+        "date": "Order Date",
+        "amount": "Total Amount",
+        "status": "Status",
+        "actions": {
+            "confirmed": "Confirm",
+            "ship": "Shipping",
+            "delivered": "Delivered",
+            "cancel": "Cancel",
+            "detail": "Detail",
+            "label": "Actions"
+        }
+      },
+
+      "status": {
+        "all": "All",
+        "pending": "Pending",
+        "confirmed": "Confirmed",
+        "shipping": "Shipping",
+        "delivered": "Delivered",
+        "cancelled": "Cancelled"
+      },
+
+      "actions": {
+        "confirm": "Confirm",
+        "ship": "Ship",
+        "deliver": "Mark as Delivered",
+        "cancel": "Cancel Order"
+      },
+
+      "detail": {
+  "back": "Back",
+  "customer": "Customer Information",
+  "payment": "Payment Information",
+  "items": "Order Items",
+  "name": "Customer",
+  "address": "Shipping Address",
+  "note": "Note",
+  "paymentMethod": "Payment Method",
+  "paymentStatus": "Payment Status",
+  "transactionId": "Transaction ID",
+  "total": "Total Amount"
+},
+
+      "modal": {
+        "title": "Confirm Status Update",
+        "description": "Are you sure you want to update order {{code}} to '{{status}}'?"
+      },
+
+      "toast": {
+        "statusUpdated": "Order {{code}} updated to {{status}} successfully",
+        "updateFailed": "Failed to update order status. Please try again later."
+
+      },
+
+      "dateRangeCalendar": {
+        "start": "Start Date",
+        "end": "End Date"
+      }
+    }
+  },
+
+  "errors": {
+    "404": {
+      "title": "Page Not Found",
+      "message": "The page you're looking for doesn't exist.",
+      "goHome": "Go to Homepage"
+    },
+    "403": {
+      "title": "Access Denied",
+      "message": "You don't have permission to access this page."
+    },
+    "500": {
+      "title": "Server Error",
+      "message": "Something went wrong on our end. Please try again later."
+    },
+    "network": "Network error. Please check your internet connection.",
+    "unauthorized": "Your session has expired. Please sign in again.",
+    "generic": "Something went wrong. Please try again."
+  },
+
+  "pagination": {
+    "previous": "Previous",
+    "next": "Next",
+    "first": "First",
+    "last": "Last",
+    "pageOf": "Page {{current}} of {{total}}"
+  },
+
+  "imageUpload": {
+    "dragDrop": "Drag & drop images here",
+    "orClick": "or click to browse",
+    "maxFiles": "Maximum {{max}} files",
+    "maxSize": "Max size: {{size}}MB per file",
+    "supportedFormats": "Supported: JPG, PNG, WebP",
+    "uploading": "Uploading...",
+    "uploadFailed": "Upload failed",
+    "fileTooLarge": "File too large (max {{size}}MB)",
+    "invalidFormat": "Invalid file format"
+  },
+
+  "dateRange": {
+    "startDate": "Start Date",
+    "endDate": "End Date",
+    "apply": "Apply",
+    "reset": "Reset",
+    "last7Days": "Last 7 Days",
+    "last30Days": "Last 30 Days",
+    "last3Months": "Last 3 Months",
+    "thisYear": "This Year"
+  },"footer": {
+  "about_text": "Shop Vibe - Your destination for an exceptional shopping experience with high-quality products and the latest trends.",
+  "categories": "Categories",
+  "support": "Support",
+  "contact": "Contact",
+  "rights": "All rights reserved.",
+  "links": {
+    "clothing": "Clothing",
+    "shoes": "Shoes",
+    "accessories": "Accessories",
+    "faq": "Frequently Asked Questions",
+    "shipping": "Shipping Policy",
+    "returns": "Return Policy"
+  }
+}
+}
